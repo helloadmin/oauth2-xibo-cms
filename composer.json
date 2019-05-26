@@ -1,5 +1,5 @@
 {
-  "name": "xibosignage/oauth2-xibo-cms",
+  "name": "helloadmin/oauth2-xibo-cms",
   "description": "A Xibo CMS provider for league/oauth2-client",
   "keywords": [
     "oauth",
