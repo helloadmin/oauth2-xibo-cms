@@ -24,8 +24,19 @@
   ],
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/helloadmin/oauth2-xibo-cms.git"
+            "type": "package",
+            "package": {
+                "name": "xibosignage/oauth2-xibo-cms",
+                "version": "dev-develop",
+                "source": {
+                    "url": "https://github.com/helloadmin/oauth2-xibo-cms.git",
+                    "type": "git",
+                    "reference": "develop"
+                },
+                "autoload": {
+                    "classmap": [""]
+                }
+            }
         }
     ],  
     "require": {
