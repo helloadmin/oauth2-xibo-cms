@@ -22,9 +22,19 @@
       "homepage": "https://springsignage.com"
     }
   ],
-  "require": {
-    "php": ">=5.4.0",
-    "league/oauth2-client": "~1"
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/helloadmin/oauth2-xibo-cms.git"
+        }
+    ],  
+    "require": {
+    "php": ">=5.6.0",
+    "league/oauth2-client": "2.4.*",
+    "psr/log": "1.1.*"
+  },
+  "require-dev": {
+    "monolog/monolog": "^1.22"
   },
   "autoload": {
     "psr-4": { "Xibo\\OAuth2\\Client\\" : "src/" }
