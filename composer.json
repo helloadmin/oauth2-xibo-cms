@@ -28,10 +28,8 @@
             "url": "https://github.com/helloadmin/oauth2-xibo-cms.git"
         }
     ],
-      "require": {
-        "helloadmin/oauth2-xibo-cms": "dev-develop"
-    }
   "require": {
+    "helloadmin/oauth2-xibo-cms": "dev-develop"
     "php": ">=5.6.0",
     "league/oauth2-client": "2.4.*",
     "psr/log": "1.1.*"
